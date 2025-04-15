@@ -8,9 +8,8 @@ public class Human extends Animal implements Thinkable {
     }
 
     public Human(String name, int age, String hobby) {
+        super(name, age);
         this.hobby = hobby;
-        setName(name);
-        setAge(age);
     }
 
     public void think() {
